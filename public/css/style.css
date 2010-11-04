@@ -1,0 +1,123 @@
+body {
+	font-size: 18px;
+/*	background: url("/lightning.jpg") no-repeat scroll center 0 #000000;*/
+	background: #eee;
+	color: #333;
+}
+
+body.dark {
+	background: #333;
+	}
+
+
+h1 {
+	color: #000;
+	font-size: 30px;
+	text-align: center;
+	margin: 4em auto 1em;
+	text-shadow: 0 1px #fff;
+	}
+	
+.dark h1 {
+	color: #fff;
+	text-shadow: none;
+	}
+	
+#switch {
+	display: block;
+	margin: 0 auto;
+	width: 700px;
+	text-align: right;
+	font-size: 11px;
+	}
+	
+#switch a {
+	color: #999;
+	text-decoration: none;
+	padding-bottom: 1px;
+	border-bottom: 1px solid #999;
+	}
+	
+#switch a:hover {
+	color: #000;
+	}
+	
+.dark #switch a:hover {
+	color: #fff;
+	}
+
+#container {
+	width: 700px;
+	border: 5px solid #fff;
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0,.2);
+	margin: 0 auto;
+	}
+	
+#container div {
+	float: left;
+	width: 200px;
+	height: 150px;
+	padding: 15px;
+	border-left: 5px solid #fff;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.4);
+	color: #fff;
+	text-align: center;
+	}
+	
+#container div:first-child {
+	border-left: 0;
+	}
+	
+#form {
+	background-color: #EF6026;
+	background: -moz-radial-gradient(center center , farthest-corner, #F16A30 0%, #EA4800 100%) repeat scroll 0 0 #EF6026;
+	}
+	
+#answer {
+	background-color: #00B098;
+	background: -moz-radial-gradient(center center , farthest-corner, #00B098 0%, #059985 100%);
+	}
+	
+#answer strong {
+	white-space: nowrap;
+	}
+	
+#form label {
+	display: block;
+	font-size: 20px;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.4);
+	}
+	
+#form input {
+/*	display: none;*/
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0,0.4) inset;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.4) inset;
+	border: 0;
+	font-weight: bold;
+	margin: 15px;
+	padding: 5px 2px;
+	text-align: center;
+	width: 2em;
+	}
+	
+div#credits {
+	font-size: 13px;
+	background-color: #8B7453;
+	background: -moz-radial-gradient(center center , farthest-corner, #8B7453 0%, #7E633C 100%);
+	}
+	
+#credits a {
+	color: #fff;
+	font-weight: bold;
+	}
+
+
+footer {
+	text-align: center;
+	font: 11px verdana;
+	color: #999;
+	margin: 1em auto;
+	width: 700px;
+	}

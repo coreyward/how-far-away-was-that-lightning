@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>How far away was that lightning?</title>
+	
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+		<script type="text/javascript" src="/js/everything.js"></script>
+	
+		<script type="text/javascript" src="http://use.typekit.com/mzk1swd.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	
+		<!--[if IE]>
+		<style> /*  Why do you hate yourself so much? */</style>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	
+		<link rel="stylesheet" href="/css/base.css" />
+		<link rel="stylesheet" href="/css/style.css" />
+	</head>
+
+	<body class="dark">
+		<h1 class="fancyfont">How far away was that lightning?</h1>
+	
+		<small id="switch"><a href="javascript:void(0);" onclick="lightswitch(this);">Turn the lights on.</a></small>
+		<div id="container" class="clearfix">
+			<div id="form">
+				<label class="fancyfont">How many seconds between the lightning &amp; thunder?</label>
+	
+				<input type="number" min="0" max="45" value="5" id="seconds">
+			</div>
+
+			<div id="answer" class="fancyfont">That lightning is awesome.</div>
+
+			<div id="credits" class="fancyfont">
+				Data from <a href="http://www.wolframalpha.com/input/?i=speed+of+sound+75%C2%B0F+95%25+humidity">Wolfram|Alpha</a>.
+				<br>
+				Created by <a href="http://coreyward.net/">Corey Ward</a>.
+			</div>
+		</div>
+	
+		<footer>
+			Calculations are estimates based on 75°F air-temperature. This site is for novelty purposes only.
+		</footer>
+	</body>
+</html>
